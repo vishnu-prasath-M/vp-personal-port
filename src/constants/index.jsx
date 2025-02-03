@@ -11,10 +11,14 @@ import projectImage1 from "../assets/project1.jpeg";
 import projectImage2 from "../assets/project2.jpeg";
 import projectImage3 from "../assets/project3.jpeg";
 
+import { RiTailwindCssLine } from "react-icons/ri";
+import { DiNodejs } from "react-icons/di";
+import { SiRedux } from "react-icons/si";
 import { RiReactjsLine } from "react-icons/ri";
+import { SiMongodb } from "react-icons/si";
 import { TbBrandHtml5, } from "react-icons/tb";
-import { SiCss3, SiDjango, SiMysql } from "react-icons/si";
-import { DiPython } from "react-icons/di";
+import { SiCss3 } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
 
 export const NAVIGATION_LINKS = [
@@ -27,7 +31,7 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const HERO = {
-  name: "Mohammed Yusuf Jumail M",
+  name: "Vishnu Prasath M",
   greet: "Hello there! 👋🏻",
   description:
     "I am a passionate frontend and backend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
@@ -44,62 +48,72 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    name: "Spotstar Platform",
+    name: "Daily Delights E-Commerce",
     description:
-      "A combination of SpotStar would create a comprehensive entertainment platform offering both music streaming and video content.",
+      "Daily Delights is an e-commerce platform that offers a seamless online shopping experience for groceries and everyday essentials. Built with modern web technologies, it features a user-friendly interface, secure checkout, and fast delivery, ensuring convenience and quality for customers.",
     image: projectImage2,
-    websitelink: "https://myspotstar.netlify.app/",
+    websitelink: "https://daily-delights-ecommerce2.onrender.com/",
   },
   {
     id: 3,
-    name: "Weather App",
+    name: "Storm Lens Weather App",
     description:
-      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
+      "Storm Lens is a weather application that uses the OpenWeatherMap API to fetch and display real-time weather data and forecasts for various locations. Built with React and styled-components, it offers a dynamic and responsive user experience with interactive weather visuals.",
     image: projectImage3,
-    websitelink: "https://weatheryusuf.netlify.app/",
+    websitelink: "https://weather-app-storm-lens.vercel.app/",
   },
 ];
 
 export const BIO = [
-  "I'am studied computer science at the University of SSM College of Engineering, from which i'm graduated in 2024. Following my education, i'm honed my craft and expertise over the course of 6 months at QSpiders., where i'm immersed myself in the world of frontend development and backend development.",
-  "As a multi-disciplinary frontend developer, my brings a wealth of skills and expertise to my work. From my deep understanding of HTML, CSS, and JavaScript, Python, SQL to my proficiency in modern frameworks like Django and React, i'm possesses a versatile skill set that allows me to craft stunning and unforgettable web experiences for my audiences alike.",
+  "I'am studied computer science at the University of TDA College of Arts And Science, from which i'm graduated in 2024. Following my education, i'm honed my craft and expertise over the course of 3 months at Error Makes Clever., where i'm immersed myself in the world of frontend development and backend development.",
+  "As a multi-disciplinary frontend developer, my brings a wealth of skills and expertise to my work. From my deep understanding of HTML, CSS, and JavaScript, MongoDB to my proficiency in modern frameworks like React, i'm possesses a versatile skill set that allows me to craft stunning and unforgettable web experiences for my audiences alike.",
 ];
 
 export const SKILLS = [
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React.JS",
-    experience: "6 months",
+    experience: "3+ months",
   },
   {
     icon: <TbBrandHtml5 className="text-4xl text-orange-600 lg:text-5xl" />,
     name: "HTML5",
-    experience: "1.5+ years",
+    experience: "6+ months",
   },
   {
     icon: <SiCss3 className="text-4xl text-blue-600 lg:text-5xl" />,
     name: "CSS3",
-    experience: "1.5+ years",
+    experience: "6+ months",
   },
   {
     icon: <IoLogoJavascript className="text-4xl text-yellow-400 lg:text-5xl" />,
     name: "JavaScript",
-    experience: "1+ years",
+    experience: "3+ Months",
   },
   {
-    icon: <DiPython className="text-4xl text-yellow-300 lg:text-5xl" />,
-    name: "Python",
-    experience: "6+ months",
+    icon: <RiTailwindCssLine className="text-4xl text-blue-500 lg:text-5xl" />,
+    name: "Tailwind CSS",
+    experience: "5+ months",
   },
   {
-    icon: <SiMysql className="text-4xl text-cyan-400 lg:text-5xl" />,
-    name: "MySQL",
-    experience: "6+ months",
+    icon: <DiNodejs className="text-4xl text-yellow-300 lg:text-5xl" />,
+    name: "Node.js",
+    experience: "3+ months",
   },
   {
-    icon: <SiDjango className="text-4xl text-green-600 lg:text-5xl" />,
-    name: "Django",
-    experience: "6+ months",
+    icon: <FaNodeJs className="text-4xl text-green-500 lg:text-5xl" />,
+    name: "Express.js",
+    experience: "3+ months",
+  },
+  {
+    icon: <SiRedux className="text-4xl text-blue-800 lg:text-5xl" />,
+    name: "Redux",
+    experience: "2+ months",
+  },
+  {
+    icon: <SiMongodb className="text-4xl text-yellow-400 lg:text-5xl" />,
+    name: "MongoDB",
+    experience: "3+ months",
   },
 ];
 
@@ -129,18 +143,18 @@ export const EXPERIENCES = [
 
 export const EDUCATION = [
   {
-    degree: "Bachelor of Engineering in Computer Science",
-    institution: "SSM College of Engineering",
-    duration: "August 2020 - May 2024",
+    degree: "Bachelor of Science in Computer Science",
+    institution: "TDA College of Arts and Science",
+    duration: "june 2021 - May 2024",
     description:
       "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackerRank, where I developed several web applications using HTML, CSS, and JavaScript. Completed a senior project on developing an e-commerce platform. Graduated with a high CGPA.",
   },
   {
     degree: "Higher Secondary School Certificate",
-    institution: "Nandha Matric Hr Sec School",
-    duration: "June 2019 - April 2020",
+    institution: "Government Hr Sec School",
+    duration: "June 2019 - April 2021",
     description:
-      "Completed Higher Secondary School Certificate (HSC) with a focus on core subjects like Mathematics, Physics, and Computer Science, building a strong foundation in analytical and problem-solving skills.",
+      "Completed Higher Secondary School Certificate (HSC) with a focus on core subjects like Mathematics, Physics, and Biology, building a strong foundation in analytical and problem-solving skills.",
   },
 ];
 

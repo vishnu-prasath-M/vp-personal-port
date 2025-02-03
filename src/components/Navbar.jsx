@@ -1,5 +1,5 @@
 import { useState } from "react"
-import logo from '../assets/logo.png'
+import logo from '../assets/logo1.png'
 import { NAVIGATION_LINKS } from '../constants'
 import { FaTimes } from "react-icons/fa";
 import { FaBars } from "react-icons/fa6";
@@ -33,7 +33,7 @@ const Navbar = () => {
                     <div className="flex items-center justify-center gap-4">
                         <div>
                             <a href="#">
-                                <img src={logo} alt="logo" width={150} />
+                                <img src={logo} alt="logo" width={120} />
                             </a>
                         </div>
                         <div>
@@ -54,7 +54,7 @@ const Navbar = () => {
                     <div className="flex items-center justify-between">
                         <div>
                             <a href="#">
-                                <img src={logo} alt="logo" width={90} className="m-2" />
+                                <img src={logo} alt="logo" width={70} className="m-2" />
                             </a>
                         </div>
                         <div className="flex items-center">

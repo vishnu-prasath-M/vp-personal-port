@@ -43,12 +43,17 @@ const ContactForm = () => {
       setIsSending(true);
 
       emailjs
-        .send(
-          "service_vxxsjuq",
-          "template_sys5438",
-          formData,
-          "7mdry1puOs8j7vm43",
-        )
+      .send(
+        "service_4xjvpmj", // Your EmailJS service ID
+        "template_rv1aqy8", // Your EmailJS template ID
+        {
+          from_name: formData.name, // Sender's name
+          from_email: formData.email, // Sender's email
+          message: formData.message, // Message content
+          to_email: "prasathhari713@gmail.com", // Replace with your receiving email
+        },
+        "htEnUcP1Ny-Nosdka" // Your EmailJS public key
+      )
         .then((response) => {
           toast.success("Message sent successfully");
           setFormData({ name: "", email: "", message: "" });
