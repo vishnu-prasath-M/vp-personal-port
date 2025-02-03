@@ -44,13 +44,13 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    websitelink: "https://yusufjumail.netlify.app/",
+    websitelink: "https://vp-personal-portfolio.vercel.app/",
   },
   {
     id: 2,
     name: "Daily Delights E-Commerce",
     description:
-      "Daily Delights is an e-commerce platform that offers a seamless online shopping experience for groceries and everyday essentials. Built with modern web technologies, it features a user-friendly interface, secure checkout, and fast delivery, ensuring convenience and quality for customers.",
+      "Daily Delights is an e-commerce platform for groceries, offering easy shopping and fast delivery.",
     image: projectImage2,
     websitelink: "https://daily-delights-ecommerce2.onrender.com/",
   },
@@ -58,7 +58,7 @@ export const PROJECTS = [
     id: 3,
     name: "Storm Lens Weather App",
     description:
-      "Storm Lens is a weather application that uses the OpenWeatherMap API to fetch and display real-time weather data and forecasts for various locations. Built with React and styled-components, it offers a dynamic and responsive user experience with interactive weather visuals.",
+      "Storm Lens is a React-based weather app using the OpenWeatherMap API to display real-time weather data and forecasts.",
     image: projectImage3,
     websitelink: "https://weather-app-storm-lens.vercel.app/",
   },
