@@ -8,7 +8,7 @@ const Projects = () => {
             <motion.h2 initial={{ opacity: 0, y: -20}} whileInView={{ opacity:1, y:0}} transition={{duration: 0.8}} className="mb-8 text-center text-3xl lg:text-4xl">
                 Projects
             </motion.h2>
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
                 {PROJECTS.map((project) => (
                     <motion.div initial={{ opacity: 0, scale:0.9}} whileInView={{ opacity:1, scale:1}} transition={{duration: 0.5}} whileHover={{scale:1.05}} key={project.id} className='group relative overflow-hidden rounded-3xl'>
                         <img src={project.image} alt={project.name} className='h-full w-full object-cover transition-transform duration-500 group-hover:scale-110' />

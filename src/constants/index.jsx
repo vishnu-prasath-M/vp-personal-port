@@ -7,9 +7,18 @@ import {
   FaInstagram,
 } from "react-icons/fa6";
 
-import projectImage1 from "../assets/project1.jpeg";
-import projectImage2 from "../assets/project2.jpeg";
-import projectImage3 from "../assets/project3.jpeg";
+// import projectImage1 from "../assets/project1.jpeg";
+import projectImage1 from "../assets/Portfoli pr1.jpg";
+// import projectImage2 from "../assets/project2.jpeg";
+import projectImage2 from "../assets/DDpr2.jpg";
+// import projectImage3 from "../assets/project3.jpeg";
+import projectImage3 from "../assets/SL pr6.jpg";
+import projectImage4 from "../assets/BM pr4.jpg";
+import projectImage5 from "../assets/Udemy pr8.jpg";
+import projectImage6 from "../assets/Nostra pr5.jpg";
+import projectImage7 from "../assets/tripad pr7.jpg";
+
+
 
 import { RiTailwindCssLine } from "react-icons/ri";
 import { DiNodejs } from "react-icons/di";
@@ -61,6 +70,38 @@ export const PROJECTS = [
       "Storm Lens is a React-based weather app using the OpenWeatherMap API to display real-time weather data and forecasts.",
     image: projectImage3,
     websitelink: "https://weather-app-storm-lens.vercel.app/",
+  },
+  {
+    id: 4,
+    name: "Bulkify Mail",
+    description:
+      "Bulkify is a MERN-based platform that lets you send emails to multiple recipients simultaneously with ease",
+    image: projectImage4,
+    websitelink: "https://bulkify-mail-sender2.onrender.com/",
+  },
+  {
+    id: 5,
+    name: "Udemy Clone",
+    description:
+      "My Udemy clone is a MERN-based e-learning platform offering courses, video lectures, and interactive user engagement",
+    image: projectImage5,
+    websitelink: "https://vishnu-prasath-m.github.io/Udemy-clone-Weekly-Task1/",
+  },
+  {
+    id: 6,
+    name: "Nostra E-Commerce",
+    description:
+      "Nostra is a stylish and intuitive shopping platform designed for a seamless and engaging online buying experience",
+    image: projectImage6,
+    websitelink: "https://vishnu-prasath-m.github.io/Nostra-e-commerce-website/",
+  },
+  {
+    id: 7,
+    name: "Trip Advisor Clone",
+    description:
+      "My TripAdvisor clone is a travel platform that helps users explore destinations, read reviews, and book experiences",
+    image: projectImage7,
+    websitelink: "https://vishnu-prasath-m.github.io/TripAdvisor-clone/",
   },
 ];
 
