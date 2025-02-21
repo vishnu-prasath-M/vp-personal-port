@@ -18,6 +18,8 @@ import projectImage5 from "../assets/Udemy pr8.jpg";
 import projectImage6 from "../assets/Nostra pr5.jpg";
 import projectImage7 from "../assets/tripad pr7.jpg";
 
+import certificateimg from "../assets/merncertificate.jpg"
+
 
 
 import { RiTailwindCssLine } from "react-icons/ri";
@@ -197,6 +199,13 @@ export const EDUCATION = [
       "Completed Higher Secondary School Certificate (HSC) with a focus on core subjects like Mathematics, Physics, and Biology, building a strong foundation in analytical and problem-solving skills.",
   },
 ];
+
+export const CERTIFICATIONS = [
+  {
+    title: "Full Stack Web Development Certification",
+    image: certificateimg,
+  },
+]
 
 export const SOCIAL_MEDIA_LINKS = [
   {
