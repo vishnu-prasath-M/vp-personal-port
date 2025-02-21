@@ -38,7 +38,7 @@ const Skills = () => {
                                 {skill.name}
                             </h3>
                         </div>
-                        <div className="w-full sm:w-1/2 flex items-center space-x-2">
+                        <div className="w-full lg:w-1/4 sm:w-1/2 flex items-center space-x-2">
                             <div className="flex-grow bg-gray-300 rounded-full h-2 overflow-hidden">
                                 <motion.div 
                                     className="bg-blue-500 h-2 rounded-full"
