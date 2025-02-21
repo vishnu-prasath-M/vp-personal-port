@@ -129,7 +129,7 @@ export const SKILLS = [
     level: 85,
   },
   {
-    icon: <IoLogoJavascript className="text-4xl text-yellow-400 lg:text-5xl" />, 
+    icon: <IoLogoJavascript className="text-4xl sm:text-5xl lg:text-5xl text-yellow-400" />, 
     name: "JavaScript", 
     level: 75,
   },
