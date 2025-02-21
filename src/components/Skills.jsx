@@ -38,8 +38,8 @@ const Skills = () => {
                                 {skill.name}
                             </h3>
                         </div>
-                        <div className="w-1/4 flex items-center">
-                            <div className="w-3/4 bg-gray-300 rounded-full h-2 overflow-hidden">
+                        <div className="w-full sm:w-1/2 flex items-center space-x-2">
+                            <div className="flex-grow bg-gray-300 rounded-full h-2 overflow-hidden">
                                 <motion.div 
                                     className="bg-blue-500 h-2 rounded-full"
                                     initial={{ width: 0 }}
@@ -48,7 +48,7 @@ const Skills = () => {
                                 ></motion.div>
                             </div>
                             <motion.span 
-                                className="ml-4 text-md font-semibold"
+                                className="text-md font-semibold whitespace-nowrap"
                                 initial={{ opacity: 0 }}
                                 animate={hasAnimated ? { opacity: 1 } : { opacity: 0 }}
                                 transition={{ duration: 0.5, delay: index * 0.5 }}
