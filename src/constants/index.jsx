@@ -111,54 +111,54 @@ export const BIO = [
   "I'am studied computer science at TDA College of Arts And Science, affiliated with Alagappa University, from which i'm graduated in 2024. Following my education, i'm honed my craft and expertise over the course of 3 months at Error Makes Clever., where i'm immersed myself in the world of frontend development and backend development.",
   "As a multi-disciplinary frontend developer, my brings a wealth of skills and expertise to my work. From my deep understanding of HTML, CSS, and JavaScript, MongoDB to my proficiency in modern frameworks like React, i'm possesses a versatile skill set that allows me to craft stunning and unforgettable web experiences for my audiences alike.",
 ];
-
 export const SKILLS = [
   {
-    icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />, 
+    icon: <div className="min-w-[40px] min-h-[40px] flex-shrink-0"><RiReactjsLine className="text-5xl text-cyan-400" /></div>, 
     name: "React.JS", 
     level: 80,
   },
   {
-    icon: <TbBrandHtml5 className="text-4xl text-orange-600 lg:text-5xl" />, 
+    icon: <div className="min-w-[40px] min-h-[40px] flex-shrink-0"><TbBrandHtml5 className="text-5xl text-orange-600" /></div>, 
     name: "HTML5", 
     level: 90,
   },
   {
-    icon: <SiCss3 className="text-4xl text-blue-600 lg:text-5xl" />, 
+    icon: <div className="min-w-[40px] min-h-[40px] flex-shrink-0"><SiCss3 className="text-5xl text-blue-600" /></div>, 
     name: "CSS3", 
     level: 85,
   },
   {
-    icon: <IoLogoJavascript className="text-4xl sm:text-5xl lg:text-5xl text-yellow-400" />, 
+    icon: <div className="min-w-[30px] min-h-[30px] flex-shrink-0"><IoLogoJavascript className="text-5xl max-sm:text-4xl text-yellow-400" /></div>, 
     name: "JavaScript", 
     level: 75,
   },
   {
-    icon: <RiTailwindCssLine className="text-4xl text-blue-500 lg:text-5xl" />, 
+    icon: <div className="min-w-[40px] min-h-[40px] flex-shrink-0"><RiTailwindCssLine className="text-5xl text-blue-500" /></div>, 
     name: "Tailwind CSS", 
     level: 90,
   },
   {
-    icon: <DiNodejs className="text-4xl text-yellow-300 lg:text-5xl" />, 
+    icon: <div className="min-w-[40px] min-h-[40px] flex-shrink-0"><DiNodejs className="text-5xl text-yellow-300" /></div>, 
     name: "Node.js", 
     level: 70,
   },
   {
-    icon: <FaNodeJs className="text-4xl text-green-500 lg:text-5xl" />, 
+    icon: <div className="min-w-[40px] min-h-[40px] flex-shrink-0"><FaNodeJs className="text-5xl text-green-500" /></div>, 
     name: "Express.js", 
     level: 65,
   },
   {
-    icon: <SiRedux className="text-4xl text-blue-800 lg:text-5xl" />, 
+    icon: <div className="min-w-[40px] min-h-[40px] flex-shrink-0"><SiRedux className="text-5xl text-blue-800" /></div>, 
     name: "Redux", 
     level: 60,
   },
   {
-    icon: <SiMongodb className="text-4xl text-yellow-400 lg:text-5xl" />, 
+    icon: <div className="min-w-[40px] min-h-[40px] flex-shrink-0"><SiMongodb className="text-5xl text-yellow-400" /></div>, 
     name: "MongoDB", 
     level: 70,
   },
 ];
+
 export const EXPERIENCES = [
   {
     title: "Lead Frontend Developer",

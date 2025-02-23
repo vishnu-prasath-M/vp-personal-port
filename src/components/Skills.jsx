@@ -38,7 +38,8 @@ const Skills = () => {
                                 {skill.name}
                             </h3>
                         </div>
-                        <div className="w-1/2 lg:w-1/4 sm:w-1/3 flex items-center space-x-2">
+                        {/* Large screen progress bar */}
+                        <div className="hidden sm:flex w-2/4 lg:w-1/4 sm:w-1/3 flex items-center space-x-2">
                             <div className="flex-grow bg-gray-300 rounded-full h-2 overflow-hidden">
                                 <motion.div 
                                     className="bg-blue-500 h-2 rounded-full"
@@ -55,6 +56,27 @@ const Skills = () => {
                             >
                                 {skill.level}%
                             </motion.span>
+                        </div>
+                        {/* Small screen circular progress bar */}
+                        <div className="sm:hidden flex items-center justify-center w-16 h-16 relative">
+                            <svg className="w-full h-full" viewBox="0 0 36 36">
+                                <circle className="text-gray-300" stroke="currentColor" strokeWidth="3.8" cx="18" cy="18" r="16" fill="none" />
+                                <motion.circle 
+                                    className="text-blue-500"
+                                    stroke="currentColor"
+                                    strokeWidth="3.8"
+                                    cx="18"
+                                    cy="18"
+                                    r="16"
+                                    fill="none"
+                                    strokeDasharray="100"
+                                    strokeDashoffset="100"
+                                    initial={{ strokeDashoffset: 100 }}
+                                    animate={hasAnimated ? { strokeDashoffset: 100 - skill.level } : { strokeDashoffset: 100 }}
+                                    transition={{ duration: 0.8, delay: index * 0.5 }}
+                                />
+                            </svg>
+                            <span className="absolute text-xs font-bold text-center">{skill.level}%</span>
                         </div>
                     </motion.div>
                 ))}
