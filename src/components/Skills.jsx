@@ -39,7 +39,7 @@ const Skills = () => {
                             </h3>
                         </div>
                         {/* Large screen progress bar */}
-                        <div className="hidden sm:flex w-2/4 lg:w-1/4 sm:w-1/3 flex items-center space-x-2">
+                        <div className="hidden sm:flex w-2/4 lg:w-1/4 sm:w-1/3 flex-row items-center space-x-2">
                             <div className="flex-grow bg-gray-300 rounded-full h-2 overflow-hidden">
                                 <motion.div 
                                     className="bg-blue-500 h-2 rounded-full"
@@ -47,6 +47,8 @@ const Skills = () => {
                                     animate={hasAnimated ? { width: `${skill.level}%` } : { width: 0 }}
                                     transition={{ duration: 0.8, delay: index * 0.5 }}
                                 ></motion.div>
+
+                                
                             </div>
                             <motion.span 
                                 className="text-md font-semibold whitespace-nowrap"
