@@ -17,6 +17,7 @@ import projectImage4 from "../assets/BM pr4.jpg";
 import projectImage5 from "../assets/Udemy pr8.jpg";
 import projectImage6 from "../assets/Nostra pr5.jpg";
 import projectImage7 from "../assets/tripad pr7.jpg";
+import projectImage8 from "../assets/f-img.jpg";
 
 import certificateimg from "../assets/merncertificate.jpg"
 
@@ -57,8 +58,18 @@ export const PROJECTS = [
     image: projectImage1,
     websitelink: "https://vp-personal-portfolio.vercel.app/",
   },
+
   {
     id: 2,
+    name: "Fabora-Fashion E-Commerce Store",
+    description:
+      "A modern fashion e commerce website built for Fabora to showcase trendy collections, easy shopping, and secure checkout.",
+    image: projectImage8,
+    websitelink: "https://fabora-fashions-ecommerce.vercel.app/",
+  },
+
+  {
+    id: 3,
     name: "Daily Delights E-Commerce",
     description:
       "Daily Delights is an e-commerce platform for groceries, offering easy shopping and fast delivery.",
@@ -66,7 +77,7 @@ export const PROJECTS = [
     websitelink: "https://daily-delights-ecommerce2.onrender.com/",
   },
   {
-    id: 3,
+    id: 4,
     name: "Storm Lens Weather App",
     description:
       "Storm Lens is a React-based weather app using the OpenWeatherMap API to display real-time weather data and forecasts.",
@@ -74,7 +85,7 @@ export const PROJECTS = [
     websitelink: "https://weather-app-storm-lens.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     name: "Bulkify Mail",
     description:
       "Bulkify is a MERN-based platform that lets you send emails to multiple recipients simultaneously with ease",
@@ -82,7 +93,7 @@ export const PROJECTS = [
     websitelink: "https://bulkify-mail-sender2.onrender.com/",
   },
   {
-    id: 5,
+    id: 6,
     name: "Udemy Clone",
     description:
       "My Udemy clone is a MERN-based e-learning platform offering courses, video lectures, and interactive user engagement",
@@ -90,7 +101,7 @@ export const PROJECTS = [
     websitelink: "https://vishnu-prasath-m.github.io/Udemy-clone-Weekly-Task1/",
   },
   {
-    id: 6,
+    id: 7,
     name: "Nostra E-Commerce",
     description:
       "Nostra is a stylish and intuitive shopping platform designed for a seamless and engaging online buying experience",
@@ -98,7 +109,7 @@ export const PROJECTS = [
     websitelink: "https://vishnu-prasath-m.github.io/Nostra-e-commerce-website/",
   },
   {
-    id: 7,
+    id: 8,
     name: "Trip Advisor Clone",
     description:
       "My TripAdvisor clone is a travel platform that helps users explore destinations, read reviews, and book experiences",
