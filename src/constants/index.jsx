@@ -65,7 +65,7 @@ export const PROJECTS = [
     description:
       "A modern fashion e commerce website built for Fabora to showcase trendy collections, easy shopping, and secure checkout.",
     image: projectImage8,
-    websitelink: "https://fabora-fashions-ecommerce.vercel.app/",
+    websitelink: "https://fabora-fashion-store-pqh4.vercel.app/",
   },
 
   {
